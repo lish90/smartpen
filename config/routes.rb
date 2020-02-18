@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  resource :reports, only: [:index, :new, :show]
+  root to: 'reports#homepage'
+  resource :reports, only: [ :create, :show]
 end

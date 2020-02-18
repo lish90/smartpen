@@ -1,5 +1,5 @@
 Given("I am on the Homepage") do
-   visit ''
+   visit "/"
   end
   
   Then("I Should see a welcome message") do
